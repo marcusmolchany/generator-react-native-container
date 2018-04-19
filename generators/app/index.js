@@ -16,7 +16,11 @@ module.exports = class extends Generator {
   prompting() {
     // Have Yeoman greet the user.
     this.log(
-      yosay(`Welcome to the superb ${chalk.red('generator-react-native-container')} generator!`)
+      yosay(
+        `Welcome to the superb ${chalk.red(
+          'generator-react-native-container'
+        )} generator!`
+      )
     );
 
     const { containerName } = this.options;
