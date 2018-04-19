@@ -13,7 +13,6 @@ describe('generator-react-native-container:app', () => {
 
   it('creates files', () => {
     assert.file([
-      'TestContainer/Component.css',
       'TestContainer/Component.js',
       'TestContainer/Container.js',
       'TestContainer/index.js'
