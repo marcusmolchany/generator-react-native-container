@@ -1,12 +1,9 @@
 import React from 'react';
 import propTypes from 'prop-types';
-import { StyleSheet, Text, View } from 'react-native';
-
-const styles = StyleSheet.create({
-  // todo: add styles here
-});
+import { Text, View } from 'react-native';
 
 // todo: import other components and utils here
+import styles from './styles';
 
 class Component extends React.PureComponent {
   state = {
